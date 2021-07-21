@@ -43,7 +43,7 @@ function setup() {
   createCanvas(windowWidth+27,windowHeight);
 
   //adding the background image
-  bg = createSprite(width/2-20,height/2-40,20,20)
+  bg = createSprite(width/2,height/2-30,20,20)
 bg.addImage(bgImg)
 bg.scale = 1.1;
   
